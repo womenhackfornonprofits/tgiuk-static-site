@@ -9,8 +9,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    //s3settings: grunt.file.readJSON('s3settingsprod.json'), //-- READS THE PROD CREDENTIALS TO DEPLOY TO PROD ---//
-    //s3settings: grunt.file.readJSON('s3settings.json'),
+    s3settings: grunt.file.readJSON('s3settings.json'),
 
     //------- AWS -------//
     aws_s3: {
@@ -86,7 +85,7 @@ module.exports = function(grunt) {
           collapseWhitespace: true,
         },
         files: [
-          {expand: true, cwd: 'src/_site', src: ['**/*.html'], dest: 'deploy/'},
+          {expand: true, cwd: 'src/', src: ['**/*.html'], dest: 'deploy/'},
         ]
       }
     },
