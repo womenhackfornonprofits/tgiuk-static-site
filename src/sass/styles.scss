@@ -6,7 +6,7 @@ html {
 }
 
 section {
-	padding: 3em 0;
+	padding: 3em 1em;
 }
 
 .banner {
@@ -42,7 +42,8 @@ section {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 85%;
+    width: 400px;
 }
 
 h3 {
@@ -77,5 +78,4 @@ h3 {
 .text-section {
 	max-width: 40em;
 	margin: 0 auto;
-
 }
