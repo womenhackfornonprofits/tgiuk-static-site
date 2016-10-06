@@ -1,0 +1,6 @@
+{
+	"key": "your key here",
+	"secret": "your secret here",
+	"bucket": "devwomenhackfornonprofits",
+	"region": "us-west-2"
+}
