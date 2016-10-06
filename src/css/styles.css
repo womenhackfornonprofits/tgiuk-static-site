@@ -299,7 +299,7 @@ html {
   background: #f7f7f7; }
 
 section {
-  padding: 3em 0; }
+  padding: 3em 1em; }
 
 .banner {
   background-color: #69B6E0; }
@@ -326,7 +326,8 @@ section {
   text-align: center;
   padding: 10px;
   margin: 0 auto;
-  max-width: 400px; }
+  max-width: 85%;
+  width: 400px; }
 
 h3 {
   margin-bottom: 1em;
