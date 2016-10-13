@@ -9,6 +9,26 @@ section {
 	padding: 3em 1em;
 }
 
+a {
+	color: #69B6E0;
+	font-weight: bold;
+}
+
+.quote {
+    padding: .6rem 0;
+    background-color: #69B6E0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    display: inline;
+    line-height: 3rem;t-weight: 2rem;
+	text-align: left;
+
+	&-author {
+		display:block;
+	}
+}
+
 .banner {
 	background-color: #69B6E0;
 	p {
@@ -20,13 +40,22 @@ section {
 
 .h1 {
 	color: #fff;
-	font-size: 5em;
+	font-size: 2.5em;
+
+	@media (min-width: 700px) {
+		font-size: 5em;
+	}
+
 }
 
 .h2 {
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.5em;
     font-style: italic;
+
+    @media (min-width: 700px) {
+		font-size: 2em;
+	}
 }
 
 .header {
