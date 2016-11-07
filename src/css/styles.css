@@ -305,6 +305,12 @@ a {
   color: #69B6E0;
   font-weight: bold; }
 
+.hero {
+  background: linear-gradient(rgba(173, 151, 151, 0.45), rgba(25, 25, 25, 0.45)), url("http://res.cloudinary.com/drdmdqahj/image/upload/c_scale,q_auto:best,w_1369/v1478557494/HeroImage_Hi-res_ogbj8n.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 30em; }
+
 .quote {
   padding: .6rem 0;
   background-color: #69B6E0;
@@ -328,7 +334,8 @@ a {
 .h1 {
   color: #fff;
   font-size: 2.5em;
-  display: inline-block; }
+  display: inline-block;
+  text-align: left; }
   @media (min-width: 700px) {
     .h1 {
       font-size: 4em; } }
@@ -337,28 +344,26 @@ a {
   color: #fff;
   font-size: 1.5em;
   font-style: italic;
-  max-width: 30em;
-  margin-left: auto;
-  margin-right: auto; }
+  text-align: left; }
   @media (min-width: 700px) {
     .h2 {
       font-size: 2em; } }
 
 .header {
   background-color: #615f8b;
-  padding: 1em; }
+  padding: 0; }
 
-.logo-wrapper {
+.hero-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
 
 .logo {
   text-align: center;
   padding: 10px;
   margin: 0;
   max-width: 85%;
-  width: 200px;
+  width: 125px;
   display: inline-block; }
 
 h3 {
@@ -376,7 +381,8 @@ h3 {
 
 .container {
   max-width: 70em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 100%; }
 
 .section-heading {
   color: #69B6E0;
